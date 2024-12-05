@@ -1,0 +1,181 @@
+body {
+	background-color: white;
+	color: black;
+	font-family: Verdana, Arial, sans serif;
+	font-size: 18px;
+	padding: 0px;
+	margin: 0px;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+@font-face{
+		font-family: New;
+		src: url('New York.otf');
+}
+
+header{
+	width: 100%;
+	height: auto;/*Remove this or make larger */
+	padding: 10px;
+	margin: 0px;
+	background-color: white;
+	overflow: auto;
+/*ADD overflow: auto; */
+}
+
+#homepageContent{
+width: 80%;
+text-align: center;
+margin: 0px auto;
+background-color: #00f6ff;
+}
+
+.row{
+		display: flex;
+		justify-content: space-evenly;
+}
+
+.twoColumns{
+	width: 50%;
+	overflow: hidden;
+}
+
+li{
+	margin: 50%;
+}
+
+h1{
+	background-color: orange;
+	font-size: 600%;
+	font-family: New;
+	text-align: center;
+}
+
+
+nav{
+	width: 100%;
+	overflow: auto;
+	background-color: orange;
+}
+nav ul{
+	width: 50%;
+	float: right;
+
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	height:10px;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+}
+
+h2{
+	list-style: none;
+	display: inline-block;
+	width: 210px;
+	height: 50px;
+	padding: 10px;
+	background-color: blue;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	font-family: "Roboto",
+	sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+h3, h4, h5, h6{
+	background-color: white;
+	background-color: #FFFFFF;
+	background-color: rgb(255,255,255);
+	color: #000000;
+	background-color: orange;
+}
+
+h2{
+	font-size: 300%;
+	font-family: New;
+	text-transform: uppercase;
+}
+h3{
+	font-size: 200%;
+	font-family: New;
+	font-weight: 700;
+	padding-left: 200px
+}
+
+h4{
+	font-size: 150%;
+	font-family: New;
+	text-align: center
+}
+
+h5{
+	font-size: 150%;
+	font-family: New;
+	text-align: center;
+
+p{
+	font-size: 150%;
+	font-family: New;
+	font-weight: 300;
+	text-align: center;
+	padding-left: 20px;
+	padding-top: 60px;
+}
+
+.p2{
+	font-size: 150%;
+	font-family: New;
+	text-align: center
+}
+
+h1{
+	font-size: 48px;
+}
+h2{
+	font-size: 36px
+}
+p{
+	font-family: Garamond, Times New Roman, Serif;
+}
+
+table{
+	width: 50%;
+	height: 60px;
+	padding: 10px;
+}
+
+td{
+	width: 50%;
+	height: 50px;
+	padding: 20px;
+}
+
+form{
+  margin: 15px;
+  padding-bottom: 30px;
+  width: 450px;
+}
+
+img.imgSize{
+	width: auto;
+	height: 200px;
+	margin: 10px;
+}
+
+img.imgLg{
+	width: auto;
+	height: 500px;
+	margin: 20px;
+}
